@@ -7,7 +7,7 @@ Site em HTML, CSS e JavaScript para o projeto do Codelab.
 Como o `nav`, o `header` e o `footer` são carregados via `fetch()` a partir de
 arquivos `.html` separados (pasta `partials/`), o navegador bloqueia isso
 por CORS, então não é possível abrir o `index.html` clicando duas vezes nele. 
-É preciso servir os arquivos por um servidor local, ou acesse [este link](https://carloz-jacoia.github.io/Projeto-CodeLab/).
+É preciso servir os arquivos por um servidor local, ou acesse [este link](https://carloz-jacoia.github.io/Projeto-Codelab/).
 
 ## Estrutura de pastas
 
