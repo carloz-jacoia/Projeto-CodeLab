@@ -1,0 +1,53 @@
+
+.membros__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 26px;
+  margin:20px;
+}
+
+.card-membro {
+  border: 2px solid var(--verde-escuro);
+  border-radius: 10px;
+  padding: 14px;
+  text-align: center;
+  background: var(--branco);
+}
+
+.card-membro__foto {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--raio-sm);
+  overflow: hidden;
+  background: var(--cinza-claro);
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-membro__foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-membro__foto svg {
+  width: 34%;
+  color: #c7cdc3;
+}
+
+.card-membro__papel {
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--verde-claro);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.card-membro__nome {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--verde-escuro);
+}

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PET Computação | Início</title>
+    <meta
+      name="description"
+      content="Página inicial do PET Computação - ICMC/USP São Carlos."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="assets/icone_pet.png" type="image/png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body data-header-title="Seja bem vinde ao PET Computação!">
+    <div id="nav-placeholder"></div>
+    <div id="header-placeholder"></div>
+
+    <main>
+      <section class="container main-spacing atividades">
+        <div class="section-title">
+          <img src="assets/icone_pet.png" alt="" class="section-title__icon" />
+          <span class="section-title__bar"></span>
+          <h2>
+            Nossas próximas
+            <p>atividades</p>
+          </h2>
+        </div>
+
+        <div class="atividades__grid">
+          <div class="atividades__em-andamento">
+            <h3>Em andamento</h3>
+            <ul id="listaAndamento" class="lista-andamento">
+              <!-- preenchido via json -->
+            </ul>
+          </div>
+
+          <div class="atividades__carrossel-wrap">
+            <div class="carrossel" id="carrosselProximas">
+              <!-- preenchidos via json -->
+            </div>
+            <div class="carrossel__controles">
+              <button
+                class="carrossel__btn"
+                id="btnAnterior"
+                aria-label="Ver atividades anteriores"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M15.5 4.5 8 12l7.5 7.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button
+                class="carrossel__btn"
+                id="btnProximo"
+                aria-label="Ver próximas atividades"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M8.5 4.5 16 12l-7.5 7.5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="js/components.js"></script>
+    <script src="js/home.js"></script>
+  </body>
+</html>

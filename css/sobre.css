@@ -1,0 +1,78 @@
+
+.sobre__subtitulo {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--verde-escuro);
+  max-width: 780px;
+  margin-bottom: 22px;
+  line-height: 1.55;
+}
+.card {
+  border: 1px solid var(--borda);
+}
+
+.main-spacing {
+  padding: 56px 20px 24px;
+}
+
+.sobre__texto {
+  max-width: 820px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sobre__texto p {
+  font-size: 14.5px;
+  color: var(--texto-escuro);
+  line-height: 1.75;
+}
+
+.sobre__frentes-section {
+  padding: 40px 24px 80px;
+}
+
+.sobre__frentes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 22px;
+}
+
+.card-frente {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-frente__cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-frente__marcador {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--verde-claro);
+  flex-shrink: 0;
+}
+
+.card-frente__titulo {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--verde-escuro);
+}
+
+.card-frente__descricao {
+  font-size: 13.5px;
+  color: var(--texto-cinza);
+  line-height: 1.65;
+}
+
+@media (max-width: 600px) {
+  .sobre__frentes-section {
+    padding: 32px 16px 60px;
+  }
+}
